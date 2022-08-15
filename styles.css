@@ -1,0 +1,229 @@
+:root{
+    --color-fav: #001a18;
+    --color-back: rgb(172, 172, 172);
+}
+/* * ============================== */
+/* * =======     MENU     ========= * /
+/* * ============================== */
+
+.html, body{
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--color-back);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-aur{
+    opacity: 20%;
+    width: 100%;
+    height: 97%;
+    position: absolute;
+}
+
+.navigation {
+    background-color: var(--color-fav);
+    border-radius: 0px 0px 20px 20px; 
+}
+
+.navigation a{
+    text-decoration: none; 
+    font-size: 15px;
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	transition: .3s ease-out all;
+}
+
+.navigation a:hover {
+	background: #70016b;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.container-menu {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cv-container{
+    display:flex;
+}
+
+/* * ============================== */
+/* * ===== CONTAINER IMAGE========= */
+/* * ============================== */
+
+.img-container{
+    display: flex;
+}
+
+.perfil-box{
+    padding: 1%;
+    height: auto;
+    width: 50%;
+    background-color: rgb(226, 226, 226);
+    align-items: center;
+    justify-content: center;
+}
+
+.my-image{
+    width: 200px;
+    height: 200px;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    border: 4px solid black;
+}
+
+/* * ============================== */
+/* * ===== CONTAINER INFO========= */
+/* * ============================== */
+
+
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.7%;
+    font-size: 1.5rem;
+    
+}
+
+.table-n th, td{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+.languages{
+    margin-top: 14%;
+    margin-left: 3%;
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: rgb(144, 130, 177);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.65);
+}
+
+p{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: justify;
+    text-indent:10%;
+    color:#fff;
+}
+
+.percentaje-container{
+    width: 25%;
+    height: auto;
+}
+
+/* * ============================== */
+/* * =====         SKILLS ========= */
+/* * ============================== */
+
+.skill-container{
+    padding: 13%;
+    background-color: rgb(131, 131, 131);
+    width: auto;
+    height: auto;
+    -webkit-box-shadow: inset 25px 23px 24px 0px rgba(0,0,0,0.64); 
+    box-shadow: inset 25px 23px 24px 0px rgba(0,0,0,0.64);
+}
+
+.info-skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* * ============================== */
+/* * =====         SOFTWARE ========= */
+/* * ============================== */
+
+.software-container{
+    padding: 5%;
+    background-color: rgb(212, 212, 212);
+    width: auto;
+    height: auto;
+    -webkit-box-shadow: inset 34px 10px 24px -9px rgba(0,0,0,0.64); 
+box-shadow: inset 34px 10px 24px -9px rgba(0,0,0,0.64);
+}
+
+.info-software{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+/* * ============================== */
+/* * =====WORK EXPERIENCE ========= */
+/* * ============================== */
+
+.work-container{    
+    padding: 5%;
+    background-color: rgb(179, 179, 179);
+    width: auto;
+    height: auto;
+    -webkit-box-shadow: inset 31px 2px 15px -3px rgba(0,0,0,0.68); 
+box-shadow: inset 31px 2px 15px -3px rgba(0,0,0,0.68);
+}
+
+.info-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* * ============================== */
+/* * =====LAST PART       ========= */
+/* * ============================== */
+
+.last-part{
+    display: flex;
+}
+
+.projects{    
+    padding: 5%;
+    background-color: rgb(128, 128, 128);
+    width: 50%;
+    height: auto;
+    -webkit-box-shadow: inset -24px 0px 10px 1px rgba(0,0,0,0.69); 
+box-shadow: inset -24px 0px 10px 1px rgba(0,0,0,0.69);
+color: white;
+}
+
+
+.references{    
+    padding: 5%;
+    background-color: rgb(41, 41, 41);
+    height: auto;
+    color: #fff;
+}
+
+.references h1{    
+    color: white;
+}
+
+.interests{
+    color: #fff;
+    font-weight: lighter;
+    padding: 5%;
+    width: 50%;
+    height: auto;
+    background-color: rgb(58, 58, 58);
+}
+
