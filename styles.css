@@ -94,7 +94,7 @@
     align-items: center;
     justify-content: center;
     padding: 7.7%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     
 }
 
@@ -133,7 +133,7 @@ p{
 /* * ============================== */
 
 .skill-container{
-    padding: 13%;
+    padding: 5%;
     background-color: rgb(131, 131, 131);
     width: auto;
     height: auto;
@@ -202,8 +202,8 @@ box-shadow: inset 31px 2px 15px -3px rgba(0,0,0,0.68);
     width: 50%;
     height: auto;
     -webkit-box-shadow: inset -24px 0px 10px 1px rgba(0,0,0,0.69); 
-box-shadow: inset -24px 0px 10px 1px rgba(0,0,0,0.69);
-color: white;
+    box-shadow: inset -24px 0px 10px 1px rgba(0,0,0,0.69);
+    color: white;
 }
 
 
